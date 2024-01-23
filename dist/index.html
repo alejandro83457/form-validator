@@ -4,31 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <form>
       <div class="emailDiv">
         <label for="email">Email:</label>
-        <input type="email" name="email" id="email" />
+        <input type="email" name="email" id="email" required />
       </div>
       <div class="countryDiv">
         <label for="country">Country:</label>
-        <select value="country" id="country">
+        <select value="country" id="country" required>
           <option value="Select country">Select country</option>
         </select>
       </div>
       <div class="zipDiv">
         <label for="zip">ZIP code:</label>
-        <input type="text" name="zip" id="zip" />
+        <input type="text" name="zip" id="zip" required />
       </div>
       <div class="passDiv">
         <label for="password">Password:</label>
-        <input type="password" name="password" id="password" />
+        <input type="password" name="password" id="password" required />
       </div>
       <div class="confirmDiv">
         <label for="confirm">Confirm password:</label>
-        <input type="password" name="confirm" id="confirm" />
+        <input type="password" name="confirm" id="confirm" required />
       </div>
       <input type="submit" value="Submit" />
     </form>
