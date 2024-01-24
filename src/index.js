@@ -108,6 +108,7 @@ const validate = () => {
   });
 };
 
+// add event listener to update DOM if form is correct
 const submitForm = () => {
   const form = document.querySelector('form');
   const congrats = document.querySelector('#congrats');
