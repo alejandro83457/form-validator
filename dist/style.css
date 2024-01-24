@@ -5,6 +5,7 @@ body {
   align-items: center;
   color: gray;
 }
+
 form {
   display: flex;
   flex-direction: column;
@@ -29,4 +30,12 @@ select {
   border: 2px solid lightgray;
   border-radius: 5px;
   color: inherit;
+}
+
+input:focus {
+  outline: none;
+}
+
+.error {
+  border: 2px solid rgba(255, 0, 0, 0.3);
 }
